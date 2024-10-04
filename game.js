@@ -135,7 +135,7 @@ function updateBird() {
 function updatePipes() {
     const minHeight = 50; 
     const maxHeight = canvas.height / 2; 
-    const gap = 180;
+    const gap = 120;
 
     pipes.forEach(pipe => {
         pipe.x -= 2; // Move pipes to the left
