@@ -2,7 +2,7 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // Game Variables
-let bird = { x: 50, y: canvas.height / 2, width: 180, height: 180, gravity: 0.2, jump: 4.0, velocity: 0 };
+let bird = { x: 50, y: canvas.height / 2, width: 250, height: 250, gravity: 0.2, jump: 4.0, velocity: 0 };
 
 let pipes = [];
 let frame = 0;
