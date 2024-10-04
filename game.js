@@ -2,7 +2,7 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 // Game Variables
-let bird = { x: 50, y: canvas.height / 2, width: 80, height: 80, gravity: 0.2, jump: 4.0, velocity: 0 };
+let bird = { x: 50, y: canvas.height / 2, width: 180, height: 180, gravity: 0.2, jump: 4.0, velocity: 0 };
 
 let pipes = [];
 let frame = 0;
@@ -86,7 +86,7 @@ function drawPipes() {
 function updatePipes() {
     const minHeight = 50;  // Minimum height for the top spike
     const maxHeight = canvas.height / 2;  // Maximum height for the top spike
-    const gap = 180;  // Adjust the gap between spikes
+    const gap = 150;  // Adjust the gap between spikes
 
     pipes.forEach(pipe => {
         pipe.x -= 2;  // Move the pipes (now spikes) to the left
