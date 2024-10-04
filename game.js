@@ -86,7 +86,7 @@ function drawPipes() {
 function updatePipes() {
     const minHeight = 50;  // Minimum height for the top spike
     const maxHeight = canvas.height / 2;  // Maximum height for the top spike
-    const gap = 150;  // Adjust the gap between spikes
+    const gap = 120;  // Adjust the gap between spikes
 
     pipes.forEach(pipe => {
         pipe.x -= 2;  // Move the pipes (now spikes) to the left
