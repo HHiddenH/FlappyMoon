@@ -252,7 +252,7 @@ function gameLoop() {
     if (detectCollision()) 
     {
 
-        if(score < 111)
+        if(score < 50)
         {
             alert("Game Over! \nYou lose! \nYour score is: " + score);
         }
@@ -267,7 +267,7 @@ function gameLoop() {
     // Display score
     ctx.fillStyle = "white";
     ctx.font = "24px Arial";
-    ctx.fillText("Score(Goal 111): " + score, 10, 20);
+    ctx.fillText("Score(Goal 50): " + score, 10, 20);
 
     // Loop the game
     requestAnimationFrame(gameLoop);
