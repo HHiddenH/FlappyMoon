@@ -258,7 +258,7 @@ function gameLoop() {
         }
         else
         {
-            alert("Love u! Invitation on 7/10/2024 19:00. \nYour score is: " + score);
+            alert("Love u! Invitation on 15/10/2024 19:00. \nYour score is: " + score);
         }
 
         resetGame();
